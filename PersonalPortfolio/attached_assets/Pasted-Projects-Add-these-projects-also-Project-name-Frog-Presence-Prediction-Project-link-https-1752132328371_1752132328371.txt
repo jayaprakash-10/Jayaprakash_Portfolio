@@ -1,0 +1,54 @@
+Projects:
+
+Add these projects also
+
+Project name- Frog Presence Prediction
+Project link - https://github.com/jayaprakash-10/Frog-Habitat-Prediction-using-XGBoost
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) Developed a frog habitat prediction model using climate and occurrence data from Southeast Australia.
+Engineered features from TerraClimate GeoTIFFs and applied advanced EDA to identify key ecological patterns.
+Built and optimized multiple models (SVM, Random Forest), with XGBoost achieving an F1-score of 81%.
+Supports biodiversity monitoring, conservation planning, and ecological risk assessment.
+
+Project name- Time-Series Risk Forecasting: Value at Risk (VaR) + Volatility
+Project link - https://github.com/jayaprakash-10/Time-Series-Risk-Forecasting
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) Interactive Streamlit dashboard ingesting historical and live asset prices to calculate daily portfolio returns.
+GARCH(1,1) model forecasts next-day volatility to quantify expected market “bumpiness.”
+Value at Risk computed via historical simulation and Monte Carlo methods at adjustable confidence levels.
+Visualizations overlay VaR thresholds and highlight breach events for intuitive, real-time risk management.
+
+Project name- Stress Testing & Capital Risk Forecasting using Deep Probabilistic Models
+Project link - https://github.com/jayaprakash-10/Stress-Testing-Capital-Risk-Forecasting-using-Deep-Probabilistic-Models 
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) Built a financial stress testing app using LSTM to forecast bank stock performance under market volatility.
+Integrated SP500 and VIX data to simulate shocks using a dynamic stress multiplier slider.
+Visualized stock behavior in normal vs. stressed conditions using PyTorch and Streamlit.
+Designed for investment risk analysis and model explainability in real-time.
+
+Project name- Sepsis Onset Forecasting in ICU (Time Series Deep Learning + Alerts)
+Project link - https://github.com/jayaprakash-10/Sepsis-Risk-Prediction-from-ICU-Vitals
+
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) Built a time-series deep learning model to predict early signs of sepsis from hourly ICU vitals using MIMIC-style data.
+Integrated a Streamlit app for real-time risk scoring and alert simulation with SHAP-based explainability.
+Improves clinical decision-making by forecasting sepsis 6+ hours before onset, aiding timely intervention.
+
+Project name- Electricity Demand Forecasting
+Project link - https://drive.google.com/file/d/1sDmbDMVhDZmrQuWl2ArkDTMmoXVY1wUS/view?usp=sharing
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) This project focused on forecasting daily electricity demand using 2015–2020 data, incorporating weather, pricing, seasonality, and holiday indicators. Exploratory analysis revealed temperature and holidays as key demand drivers. Gradient-boosted regression, with scaled and encoded features, achieved under 5% MAE and 7% RMSE. Model validation and tuning enhanced performance to support smart grid planning and energy reliability.
+
+Project name- Airbnb Data Analysis
+Project link - https://drive.google.com/file/d/1r8v_bg9figgH0I9LcE0uf8dO5EWL05Zh/view?usp=sharing
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) The analysis focused on Airbnb listings in Chicago to uncover pricing dynamics, seasonal demand, and neighborhood-specific patterns. It integrated sentiment analysis, image features, and structured data to extract actionable insights. Regression models such as Ridge and Random Forest were optimized to predict listing prices with low RMSE. Results showed that amenities, location, and listing quality significantly influence both price and visitor trends.
+
+Project name- Credit card fraud detection
+Project link -  https://drive.google.com/file/d/1h0nRg2iNG3FDgUIKGvriNtzqFa0J5FF0/view?usp=sharing
+Description- (USE THIS DESCRIPTION AND SHORTEN IT AND MAKE IT INTO A SINGLE, ACCURATE SMALL PARAGRAPH) The study applied machine learning techniques to detect credit card fraud using labeled transaction data and evaluated model performance under class imbalance. Logistic regression, support vector machines, and random forest classifiers were compared across varying under-sampling ratios. Random forest achieved the highest F1 score and AUC-ROC, effectively balancing fraud detection and error minimization. The approach emphasizes the need for robust model selection and hyperparameter tuning in real-world fraud prevention.
+
+Projects order : 
+Stress Testing & Capital Risk Forecasting using Deep Probabilistic Models
+Credit Risk Modelling with Explainable AI
+Time-Series Risk Forecasting: Value at Risk (VaR) + Volatility
+Credit card fraud detection
+Sepsis Onset Forecasting in ICU (Time Series Deep Learning + Alerts)
+Frog Presence Prediction
+RAG based Q&A system
+Electricity Demand Forecasting
+Airbnb Data Analysis
