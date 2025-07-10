@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jaya Prakash Projects - Data Science and ML Projects">
+    <title>Jaya Prakash - Projects</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">JP</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-list">
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Stress Testing & Capital Risk Forecasting using Deep Probabilistic Models</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/Stress-Testing-Capital-Risk-Forecasting-using-Deep-Probabilistic-Models" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a financial stress testing app using LSTM to forecast bank stock performance under market volatility. Integrated SP500 and VIX data to simulate shocks using a dynamic stress multiplier slider. Visualized stock behavior in normal vs. stressed conditions using PyTorch and Streamlit.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">SP500</span>
+                            <span class="tech-tag">VIX</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Credit Risk Modelling with Explainable AI</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/Credit-Risk-Modeling-with-Explainable-AI" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a binary classification model to predict loan defaults using Lending Club dataset with robust preprocessing pipeline. Trained and benchmarked Logistic Regression and XGBoost models, achieving high accuracy with SHAP and LIME integration for model interpretability and interactive risk assessment dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">SHAP</span>
+                            <span class="tech-tag">LIME</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Time-Series Risk Forecasting: Value at Risk (VaR) + Volatility</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/Time-Series-Risk-Forecasting" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Interactive Streamlit dashboard ingesting historical and live asset prices to calculate daily portfolio returns. GARCH(1,1) model forecasts next-day volatility to quantify expected market "bumpiness." Value at Risk computed via historical simulation and Monte Carlo methods at adjustable confidence levels.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GARCH</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Monte Carlo</span>
+                            <span class="tech-tag">VaR</span>
+                            <span class="tech-tag">Time Series</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Credit Card Fraud Detection</h3>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/file/d/1h0nRg2iNG3FDgUIKGvriNtzqFa0J5FF0/view?usp=sharing" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Applied machine learning techniques to detect credit card fraud using labeled transaction data and evaluated model performance under class imbalance. Logistic regression, support vector machines, and random forest classifiers were compared across varying under-sampling ratios. Random forest achieved the highest F1 score and AUC-ROC.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">SVM</span>
+                            <span class="tech-tag">Logistic Regression</span>
+                            <span class="tech-tag">Class Imbalance</span>
+                            <span class="tech-tag">F1 Score</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Sepsis Onset Forecasting in ICU (Time Series Deep Learning + Alerts)</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/Sepsis-Risk-Prediction-from-ICU-Vitals" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a time-series deep learning model to predict early signs of sepsis from hourly ICU vitals using MIMIC-style data. Integrated a Streamlit app for real-time risk scoring and alert simulation with SHAP-based explainability. Improves clinical decision-making by forecasting sepsis 6+ hours before onset.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Time Series</span>
+                            <span class="tech-tag">MIMIC</span>
+                            <span class="tech-tag">SHAP</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Frog Presence Prediction</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/Frog-Habitat-Prediction-using-XGBoost" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Developed a frog habitat prediction model using climate and occurrence data from Southeast Australia. Engineered features from TerraClimate GeoTIFFs and applied advanced EDA to identify key ecological patterns. Built and optimized multiple models (SVM, Random Forest), with XGBoost achieving an F1-score of 81%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">TerraClimate</span>
+                            <span class="tech-tag">GeoTIFFs</span>
+                            <span class="tech-tag">EDA</span>
+                            <span class="tech-tag">Ecology</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">RAG based Q&A system</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/jayaprakash-10/RAG-based-Q-A-System" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Developed a RAG-based Q&A system using LangChain and HuggingFace with PDF upload capability and context-aware questioning via Gradio interface. Integrated Phi-3-mini LLM with Chroma vector storage for efficient document retrieval and accurate answer generation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">HuggingFace</span>
+                            <span class="tech-tag">Gradio</span>
+                            <span class="tech-tag">Chroma</span>
+                            <span class="tech-tag">Phi-3-mini</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Electricity Demand Forecasting</h3>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/file/d/1sDmbDMVhDZmrQuWl2ArkDTMmoXVY1wUS/view?usp=sharing" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Focused on forecasting daily electricity demand using 2015–2020 data, incorporating weather, pricing, seasonality, and holiday indicators. Exploratory analysis revealed temperature and holidays as key demand drivers. Gradient-boosted regression achieved under 5% MAE and 7% RMSE to support smart grid planning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Gradient Boosting</span>
+                            <span class="tech-tag">Time Series</span>
+                            <span class="tech-tag">Weather Data</span>
+                            <span class="tech-tag">Smart Grid</span>
+                            <span class="tech-tag">MAE</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">Airbnb Data Analysis</h3>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/file/d/1r8v_bg9figgH0I9LcE0uf8dO5EWL05Zh/view?usp=sharing" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Analyzed Airbnb listings in Chicago to uncover pricing dynamics, seasonal demand, and neighborhood-specific patterns. Integrated sentiment analysis, image features, and structured data to extract actionable insights. Ridge and Random Forest regression models were optimized to predict listing prices with low RMSE.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ridge Regression</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">Sentiment Analysis</span>
+                            <span class="tech-tag">Feature Engineering</span>
+                            <span class="tech-tag">RMSE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jaya Prakash</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="multi-page-script.js"></script>
+</body>
+</html>
